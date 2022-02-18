@@ -6,6 +6,8 @@ import seaborn as sns
 #前処理に必要なメソッド
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
+#重回帰分析に必要なメソッド
+from sklearn.linear_model import LinearRegression
 #ボストンのデータを取得
 from sklearn.datasets import load_boston
 #load_bostonをインスタンス化
